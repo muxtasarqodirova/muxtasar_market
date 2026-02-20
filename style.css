@@ -1,273 +1,46 @@
-*{
-padding: 0;
-margin: 0;
-}
-nav .nav_top{
-background-color: #404040;
-display: flex;
-justify-content: center;
-align-items: center;
-gap: 40px;
-color: white;
-padding: 20px;
-}
-nav .nav_top button{
-width: 250px;
-height: 50px;
-border-radius: 30px;
-font-weight: 700;
-font-style: bold;
-font-size: 16px;
-}
-nav .nav_bottom{
-background-color: white;
-display: flex;
-justify-content: center;
-align-items: center;
-gap: 50px;
-color: black;
-}
-header{
-background-image: url(./Rectangle\ 5\ \(1\).png);
+body{
+background-image: url(./60b4a26558.png);
 background-repeat: no-repeat;
-background-size: none;
-width: 1600px;
-height: 532px;
-display: flex;
-flex-direction: column;
-align-items: center;
-justify-content: center;
-gap: 20px;
-color: white;
-text-align: center;
+background-size: cover;
+position: relative;
+position: relative;
 }
-header button{
-background-color: chocolate;
-width: 240px;
-height: 60px;
-color: white;
-border-radius: 30px;
+.qasoskorlar1{
+position: absolute;
+top: 300px;
+left:  530px;
+animation-name: qasoskorlar1;
+animation-duration: 3s;
+animation-iteration-count: infinite;
+animation-direction: alternate;
 }
-main .s1 .kartalar{
-padding: 0 200px;
-margin: auto;
-display: flex;
-justify-content: center;
-flex-wrap: wrap;
-gap: 40px;
+.qasoskorlar2{
+position: absolute;
+top: 300px;
+right:  530px;
+animation-name: qasoskorlar2;
+animation-duration: 3s;
+animation-iteration-count: infinite;
+animation-direction: alternate;
 }
-main .s1 .kartalar div{
-width: 240px;
-height: 264px;
-display: flex;
-justify-content: center;
-align-items: center;
-flex-direction: column;
-gap: 50px;
-border-radius: 30px;
-border: 1px solid black;
+
+@keyframes qasoskorlar1 {
+from{
+
 }
-main .s1{
-padding: 120px;
-text-align: center;
+to{
+left: 800px;
 }
-main .s1 buttoN{
-width: 240px;
-height: 60px;
-border-radius: 30px;
-background-color: chocolate;
-font-family: Montserrat;
-font-style: bold;
-font-size: 16px;
-color: white;
-border: none;
 }
 
 
-main .s2{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: #404040;
-    color: white;
-   
-}
-.s2 .box__m2 button{
-width: 240px;
-height: 60px;
-border-radius: 30px;
-border: none;
-background-color: chocolate;
-color: white;
-}
-
-.s2 .box__m2 {
-padding-left: 40px;
-padding-right: 40px;
-}
-.s2 .box__m2 h5{
-font-size: 20px;
-}
- .s3{
-padding-top: 120px;
- background-color: #404040;
+@keyframes qasoskorlar2 {
+from{
 
 }
-.m{
-color: white;
-font-size: 40px;
-text-align: center;
+to{
+right: 800px;
+}
 }
 
-.box__2{
-    display: flex;
-    align-items: center;
-    justify-content: start;
-    gap: 30px;
-}
-.s3__wrapper{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 32px;
-}
-.main{
-    width: 231px;
-    height: 74px;
-    border-radius: 30px;
-    background: #FFFFFF;
-    padding-left: 60px;
 
-}
-.title{
-    text-align: center;
-    font-family: Montserrat;
-font-weight: 700;
-font-style: Bold;
-font-size: 35px;
-
- color: #FFFFFF;
-margin-bottom: 90px;
-
-
-}
-
-.foter__wrapp{
-text-align: center;
-}
-
-.foter__wrapp1{
-padding: 0 200px;
-margin: auto;
-display: flex;
-justify-content: center;
-flex-wrap: wrap;
-gap: 40px;
-margin-top: 50px;
-}
-
-.s10{
-display: flex;
-background-color: #404040;
-color: white;
-text-align: center;
-flex-wrap: wrap;
-padding-left: 120px;
-gap: 50px;
-}
-.s__m1{
-    background-color: white;
-    color: black;
-width: 330px;
-height: 330px;
-border-radius: 30px;
-border: 1px solid black;
-}
-.s__m2{
-     background-color: white;
-    color: black;
-width: 330px;
-height: 330px;
-border-radius: 30px;
-border: 1px solid black;
-}
-.s__m3{
-     background-color: white;
-    color: black;
-width: 330px;
-height: 330px;
-border-radius: 30px;    
-border: 1px solid black;
-}
-.s__m4{
-     background-color: white;
-    color: black;
-width: 330px;
-height: 330px;
-border-radius: 30px;
-border: 1px solid black;
-}
-.s__m5{
-     background-color: white;
-    color: black;
- width: 330px;
-height: 330px;
-border-radius: 30px; 
-border: 1px solid black;  
-}
-.s__m6{
-     background-color: white;
-    color: black;
- width: 330px;
-height: 323px;
-border: 1px solid black;
-border-radius: 30px;      
-}
-.s__m6 img{
-    margin-top: 10px;
-    background-color: chocolate;
-}
-
-body {
-    font-family: Arial, sans-serif;
-}
-
-.footer {
-    background: #f2f2f2;
-    padding: 40px 0 20px;
-}
-
-.container {
-    width: 85%;
-    margin: auto;
-    display: flex;
-    justify-content: space-between;
-}
-
-.footer-box {
-    width: 22%;
-}
-
-.footer-box h3 {
-    color: #ff5a00;
-    margin-bottom: 15px;
-    font-size: 18px;
-}
-
-.footer-box p {
-    margin-bottom: 8px;
-    font-size: 14px;
-    color: #333;
-    cursor: pointer;
-}
-
-.footer-box p:hover {
-    color: #ff5a00;
-}
-
-.footer-bottom {
-    text-align: center;
-    margin-top: 30px;
-    font-size: 14px;
-    color: #333;
-}
